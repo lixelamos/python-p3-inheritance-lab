@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-#!/usr/bin/env python
 
 from user import User
 
@@ -26,7 +25,7 @@ class Teacher(User):
 
 
 
-T = Teacher("Chariman","Lobos")
+T = Teacher("Chairman","Lobos")
 T.teach()
 print(T.first_name,T.last_name)
 print(T.knowledge[3])
